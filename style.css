@@ -1,0 +1,66 @@
+﻿
+
+h1{
+	font: "Microsoft YaHei",SimHei ;
+	font-size: 30px;
+	color: #4a3113;
+	margin: 10px;
+	padding: 0;
+	margin-top: 0;
+}
+
+body{
+	background-color:#feeeed;
+}
+
+#board,#player1,#result{
+	margin: 5px auto 5px;
+	padding: 20px;
+	border: groove;
+}
+
+#player1{
+	
+}
+
+#page{
+	width: 1000px;
+	margin: 10px auto 10px;
+}
+
+#flop {
+	width: 60%;
+	float: left;
+}
+
+#turn{
+	width: 20%;
+	float: left;
+}
+
+#river{
+	width: 20%;
+	float: left;
+}
+
+.null{
+	clear: both;
+}
+
+#flop .card{
+	width: 33.3%;
+	float: left;
+}
+
+#player1 .card{
+	float: left;
+	width: 50%;
+}
+
+.card{
+	margin-top: 3px;
+}
+
+select{
+	margin: 3px;
+}
